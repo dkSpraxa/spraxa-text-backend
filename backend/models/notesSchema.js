@@ -10,6 +10,7 @@ const notesSchema = mongoose.Schema({
         type:String,
         required:[true,"Please provide your message"],
         trim:true
+        
     },
 })
 
